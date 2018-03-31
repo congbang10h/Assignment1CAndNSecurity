@@ -220,7 +220,6 @@ namespace Assignment1CAndNSecurity
 
         private void btnReset_Click(object sender, EventArgs e)
         {
-
         }
         /*
             II.Part make up UI*****************************************************
