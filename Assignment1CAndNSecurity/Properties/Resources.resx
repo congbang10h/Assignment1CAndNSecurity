@@ -118,8 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnMD5Sel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnMD5Sel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btnEncryptionSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnEncryptionSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="labelPublicEx1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\labelPublicEx1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btnDecryptSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnDecryptSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -127,38 +130,32 @@
   <data name="bgDES" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bgDES.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="btnResetSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnResetSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="btnDecryption" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnDecryption.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btnAESSel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnAESSel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg211" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="btnDecryptionSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnDecryptionSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btnOpenFileSeleted" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnOpenFileSeleted.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btnReset2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnReset2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btnEncrypt3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnEncrypt3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btnExit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnExit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="labelPublicEx1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\labelPublicEx1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bgMD5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bgMD5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btnOpenFolder" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnOpenFolder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="labelPrivateEx" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\labelPrivateEx.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnReset2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnReset2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btnGenerate" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnGenerate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,11 +163,17 @@
   <data name="labelInput" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\labelInput.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btnEncryptSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnEncryptSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="labelPrivateEx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\labelPrivateEx.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btnGenerateSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnGenerateSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnMD5Non" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnMD5Non.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="labelOutput" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\labelOutput.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,20 +190,17 @@
   <data name="btnOpenSeleted" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnOpenSeleted.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btnRSANon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnRSANon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btnDecrypt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnDecrypt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="labelPublicEx" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\labelPublicEx.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btnDecrypt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnDecrypt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btnMD5Sel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnMD5Sel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="labelModulusN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\labelModulusN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnMD5Non" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnMD5Non.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btnExitFormEnryp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnExitFormEnryp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -211,26 +211,26 @@
   <data name="btnRSASel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnRSASel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btnExit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnExit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnDESSel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnDESSel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="btnReset" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnReset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnDESNon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnDESNon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btnEncryption" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnEncryption.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btnOpen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnOpen1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btnEncrypt3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnEncrypt3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btnEncryptionSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnEncryptionSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btnDESSel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnDESSel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btnOpenFolderSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnOpenFolderSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="labelKey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\labelKey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btnAESNon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnAESNon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -238,8 +238,11 @@
   <data name="bgAES" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bgAES.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btnDESNon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnDESNon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btnOpen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnOpen1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnEncryptSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnEncryptSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bgRSA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bgRSA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -247,16 +250,34 @@
   <data name="bgEncryption" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bgEncryption.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="labelKey" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\labelKey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btnRSANon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnRSANon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="labelFileKeys" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\labelFileKeys.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btnResetSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnResetSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btnOpenFileSeleted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnOpenFileSeleted.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bgMD5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bgMD5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="decrypt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\decrypt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="encrypt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\encrypt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Generate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Generate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Open file" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Open file.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Open folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Open folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OPEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OPEN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

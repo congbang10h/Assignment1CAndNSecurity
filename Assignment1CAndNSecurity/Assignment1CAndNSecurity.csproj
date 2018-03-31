@@ -280,6 +280,27 @@
   <ItemGroup>
     <None Include="Resources\bgMD5.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\decrypt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\encrypt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Generate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OPEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
