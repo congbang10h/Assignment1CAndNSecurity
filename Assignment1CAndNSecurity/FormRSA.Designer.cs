@@ -174,7 +174,7 @@
             this.btnOutOpen.BackColor = System.Drawing.Color.Transparent;
             this.btnOutOpen.BackgroundImage = global::Assignment1CAndNSecurity.Properties.Resources.OPEN;
             this.btnOutOpen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnOutOpen.Location = new System.Drawing.Point(662, 412);
+            this.btnOutOpen.Location = new System.Drawing.Point(647, 412);
             this.btnOutOpen.Name = "btnOutOpen";
             this.btnOutOpen.Size = new System.Drawing.Size(86, 44);
             this.btnOutOpen.TabIndex = 22;
@@ -189,7 +189,7 @@
             this.btnOpenFolderIn.BackColor = System.Drawing.Color.Transparent;
             this.btnOpenFolderIn.BackgroundImage = global::Assignment1CAndNSecurity.Properties.Resources.Open_folder;
             this.btnOpenFolderIn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnOpenFolderIn.Location = new System.Drawing.Point(774, 362);
+            this.btnOpenFolderIn.Location = new System.Drawing.Point(757, 362);
             this.btnOpenFolderIn.Name = "btnOpenFolderIn";
             this.btnOpenFolderIn.Size = new System.Drawing.Size(86, 44);
             this.btnOpenFolderIn.TabIndex = 19;
@@ -204,7 +204,7 @@
             this.btnOpenFileIn.BackColor = System.Drawing.Color.Transparent;
             this.btnOpenFileIn.BackgroundImage = global::Assignment1CAndNSecurity.Properties.Resources.Open_file;
             this.btnOpenFileIn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnOpenFileIn.Location = new System.Drawing.Point(662, 362);
+            this.btnOpenFileIn.Location = new System.Drawing.Point(647, 362);
             this.btnOpenFileIn.Name = "btnOpenFileIn";
             this.btnOpenFileIn.Size = new System.Drawing.Size(86, 44);
             this.btnOpenFileIn.TabIndex = 18;

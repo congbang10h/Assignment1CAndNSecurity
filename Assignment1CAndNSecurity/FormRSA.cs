@@ -23,7 +23,11 @@ namespace Assignment1CAndNSecurity
         }
 
         private RSACryptoServiceProvider RSA = new RSACryptoServiceProvider();
+        private RSACryptoServiceProvider RSA2 = new RSACryptoServiceProvider(2048);  
         private string pathKeysXML = "";
+        private string publicKeyFile = "C:/Users/phanhien/Desktop/Assignment1CAndNSecurity/Assignment1CAndNSecurity/bin/Debug/publicKey.xml";
+        private string privateKeyFile = "C:/Users/phanhien/Desktop/Assignment1CAndNSecurity/Assignment1CAndNSecurity/bin/Debug/privateKey.xml";
+
 
         private void RSA_Algorithm(string inputFile, string outputFile, RSAParameters RSAKeyInfo, bool isEncrypt)
         {
@@ -53,15 +57,15 @@ namespace Assignment1CAndNSecurity
             {
                 bin = new byte[maxBytesCanEncrypted];
                 len = fsInput.Read(bin, 0, maxBytesCanEncrypted);
-                
-                this.progressBar1.Value =(int) rdlen;
-                this.progressBar1.PerformStep();
 
                 if (isEncrypt) encryptedData = RSA.Encrypt(bin, false);
                 else encryptedData = RSA.Decrypt(bin, false);
 
                 fsCiperText.Write(encryptedData, 0, encryptedData.Length);
                 rdlen = rdlen + len;
+
+                this.progressBar1.Value = (int)rdlen;
+                this.progressBar1.PerformStep();
 
             }
 
@@ -87,6 +91,22 @@ namespace Assignment1CAndNSecurity
 
         private void btnGenerateKey_Click(object sender, EventArgs e)
         {
+            
+            using(var fbd = new FolderBrowserDialog())
+            {
+                DialogResult result = fbd.ShowDialog();
+
+                if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(fbd.SelectedPath))
+                {
+                    string[] files = Directory.GetFiles(fbd.SelectedPath);
+                    MessageBox.Show(fbd.SelectedPath);
+                    System.Windows.Forms.MessageBox.Show("Files found: " + files.Length.ToString(), "Message");
+                    publicKeyFile = fbd.SelectedPath + "/publicKey.xml";
+                    privateKeyFile = fbd.SelectedPath + "/privateKey.xml";
+
+                    generateKeys(publicKeyFile, privateKeyFile);
+                }
+            }
 
         }
 
@@ -100,8 +120,10 @@ namespace Assignment1CAndNSecurity
                 tbPathKeys.Text = op.FileName; 
             }
 
+
             if (File.Exists(pathKeysXML))
             {
+                   
 
                 if (Path.GetExtension(pathKeysXML) == ".xml")
                 {
@@ -141,6 +163,22 @@ namespace Assignment1CAndNSecurity
 
         }
 
+        private static void generateKeys(string publicKeyFile, string privateKeyFile)
+        {
+            using (var rsa = new RSACryptoServiceProvider(2048))
+            {
+                rsa.PersistKeyInCsp = false;
+                if (File.Exists(privateKeyFile))
+                    File.Delete(privateKeyFile);
+                if (File.Exists(publicKeyFile))
+                    File.Delete(publicKeyFile);
+                string publicKey = rsa.ToXmlString(false);
+                File.WriteAllText(publicKeyFile, publicKey);
+                string privateKey = rsa.ToXmlString(true);
+                File.WriteAllText(privateKeyFile, privateKey);
+            }
+        }
+
         private void btnEncrypt_Click(object sender, EventArgs e)
         {
               if (Strings.Len(Strings.Trim(tbInput.Text)) != 0 &&
@@ -152,7 +190,7 @@ namespace Assignment1CAndNSecurity
                   RSA = new RSACryptoServiceProvider();
                   RSA.FromXmlString(File.ReadAllText(this.pathKeysXML));
                   RSA_Algorithm(inputFile, outputFile, RSA.ExportParameters(true), true);
-
+                  tbOutput.Text = outputFile;
               }
               else 
               {
@@ -171,6 +209,7 @@ namespace Assignment1CAndNSecurity
                 RSA = new RSACryptoServiceProvider();
                 RSA.FromXmlString(File.ReadAllText(this.pathKeysXML));
                 RSA_Algorithm(inputFile, outputFile, RSA.ExportParameters(true), false);
+                tbOutput.Text = outputFile;
             }
             else
             {
